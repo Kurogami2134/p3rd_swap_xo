@@ -53,6 +53,18 @@ SQUARE          equ 0x8000
 .word 4
     j       swap
 
+.word CIRCLE_ICON_X1
+.word 2
+.halfword 0x90
+
+.word CIRCLE_ICON_X2
+.word 2
+.halfword 0x90
+
+.word CROSS_ICON_X
+.word 2
+.halfword 0x81
+
 .word -1
 .word 0
 
