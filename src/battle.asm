@@ -37,6 +37,19 @@
 .word 2
 .halfword (CROSS | TRIANGLE | SQUARE)
 
+.word ITEM_SCROLL_V_O
+.word 2
+.halfword CROSS
+
+.word ITEM_SCROLL_H
+.word 4
+li      a1, 0xF
+
+.word ITEM_SCROLL_V_X
+.word 2
+.halfword CIRCLE
+
+
 .word -1
 .word 0
 .close
